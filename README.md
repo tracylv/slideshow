@@ -28,6 +28,7 @@ var defaults =
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
 <script src="../jquery.slideshow.js" type="text/javascript"></script>
+Note: don't forget the sprite images of this plugin, and adjust the relateive path of this images if need
 ```
 2.add the below dom into your page, and update the images path.
 ```
@@ -56,7 +57,7 @@ var defaults =
 	</ul>
 </div>
 ```
-3.you can add more or reduce the slide item through below code.
+3.you can add more or reduce the slide item by controlling below dom's number.
 ```
 <li>
 	<input type="hidden" class="img-src" img-src="imgs/slide5.jpg" />
@@ -75,7 +76,8 @@ var defaults =
 $(".slideshow").slideshow({loop:false, autoplay:false, duration:7000});
 ```
 #### suggestion:
-1.copy the css and js code of this plugin code into your own css and js file, because of this plugin's code is very little and it's not deserved to be loaded as a single file, it will increase the page load time in a way.
-2.In order to avoid flicker when page load, try to give a container for this plugin and fixed a width, and adjust the left/right button's position according to your need with css.
-
+```
+1. copy the css and js code of this plugin code into your own css and js file, because of this plugin's code is very little and it's not deserved to be loaded as a single file, it will increase the page load time in a way.
+2. In order to avoid flicker when page load, try to give a container for this plugin and fixed a width, and adjust the left/right button's position according to your need with css.
+```
 
