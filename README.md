@@ -1,5 +1,4 @@
 # slideshow
-===========
 #### this is a simple lazyload image slideshow plugin which is developed based on jquery. 
 #### you can develop more complicated slideshow plugin based on this.
 
