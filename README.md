@@ -28,18 +28,15 @@ var defaults =
 <script src="../jquery.slideshow.js" type="text/javascript"></script>
 Note: don't forget the sprite images of this plugin, and adjust the relateive path of this images if need
 ```
-2.add the below dom into your page, and update the images path.
+2.add the below dom into your page, and update the images path.(add all the image path to the input "img-src" attribute except the first one)
 ```
 <div class="slideshow">
 	<a class="control prev" href="#" ></a>
 	<a class="control next" href="#" ></a>
 	<ul class="slide">
-		<li><img src="imgs/slide1.jpg" width="700" height="400" /></li>
+		<li><img src="imgs/slide1.jpg" width="700" height="500" /></li>
 	</ul>
 	<ul class="itemlist">
-		<li class="current">
-			<input type="hidden" class="img-src" img-src="imgs/slide1.jpg" />
-		</li>
 		<li>
 			<input type="hidden" class="img-src" img-src="imgs/slide2.jpg" />
 		</li>
