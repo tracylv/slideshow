@@ -1,7 +1,8 @@
 # lazyload slideshow
-#### this is a simple lazyload image slideshow plugin which is developed based on jquery. 
+this is a simple lazyload image slideshow plugin which is developed based on jquery. 
 #### online demo
 http://tracylv.com
+![slideshow][1]
 #### parameters:
 ```
 var defaults =
@@ -75,4 +76,4 @@ $(".slideshow").slideshow({loop:false, autoplay:false, duration:7000});
 1. copy the css and js code of this plugin code into your own css and js file, because of this plugin's code is very little and it's not deserved to be loaded as a single file, it will increase the page load time in a way.
 2. In order to avoid flicker when page load, try to give a container for this plugin and fixed a width, and adjust the left/right button's position according to your need with css.
 ```
-
+[1]: https://github.com/tracylv/slideshow/blob/master/demo/demoscreenshot.jpg
