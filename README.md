@@ -1,9 +1,10 @@
 # lazyload slideshow
 this is a simple lazyload image slideshow plugin which is developed based on jquery. 
-#### online demo
-> http://tracylv.com
+#### online demo:
+*  http://tracylv.com         
+*  http://slideshow.tracylv.com/demo/demo.htm               
+![slideshow][1]                
 
-![slideshow][1]
 #### parameters:
 ```
 var defaults =
